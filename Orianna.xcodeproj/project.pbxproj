@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		573BA3D718481B6400AF8B8D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 573BA3D618481B6400AF8B8D /* Foundation.framework */; };
+		573BA3D918481B6400AF8B8D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 573BA3D818481B6400AF8B8D /* CoreGraphics.framework */; };
+		573BA3DB18481B6400AF8B8D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 573BA3DA18481B6400AF8B8D /* UIKit.framework */; };
+		573BA3E118481B6400AF8B8D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 573BA3DF18481B6400AF8B8D /* InfoPlist.strings */; };
+		573BA3E318481B6400AF8B8D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 573BA3E218481B6400AF8B8D /* main.m */; };
+		573BA3E718481B6400AF8B8D /* ORAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 573BA3E618481B6400AF8B8D /* ORAppDelegate.m */; };
+		573BA3EA18481B6400AF8B8D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 573BA3E818481B6400AF8B8D /* Main.storyboard */; };
+		573BA3ED18481B6400AF8B8D /* ORViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 573BA3EC18481B6400AF8B8D /* ORViewController.m */; };
+		573BA3EF18481B6400AF8B8D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 573BA3EE18481B6400AF8B8D /* Images.xcassets */; };
+		573BA3F618481B6400AF8B8D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 573BA3F518481B6400AF8B8D /* XCTest.framework */; };
+		573BA3F718481B6400AF8B8D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 573BA3D618481B6400AF8B8D /* Foundation.framework */; };
+		573BA3F818481B6400AF8B8D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 573BA3DA18481B6400AF8B8D /* UIKit.framework */; };
+		573BA40018481B6400AF8B8D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 573BA3FE18481B6400AF8B8D /* InfoPlist.strings */; };
+		573BA40218481B6400AF8B8D /* OriannaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 573BA40118481B6400AF8B8D /* OriannaTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		573BA3F918481B6400AF8B8D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 573BA3CB18481B6400AF8B8D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 573BA3D218481B6400AF8B8D;
+			remoteInfo = Orianna;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		573BA3D318481B6400AF8B8D /* Orianna.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Orianna.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		573BA3D618481B6400AF8B8D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		573BA3D818481B6400AF8B8D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		573BA3DA18481B6400AF8B8D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		573BA3DE18481B6400AF8B8D /* Orianna-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Orianna-Info.plist"; sourceTree = "<group>"; };
+		573BA3E018481B6400AF8B8D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		573BA3E218481B6400AF8B8D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		573BA3E418481B6400AF8B8D /* Orianna-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Orianna-Prefix.pch"; sourceTree = "<group>"; };
+		573BA3E518481B6400AF8B8D /* ORAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ORAppDelegate.h; sourceTree = "<group>"; };
+		573BA3E618481B6400AF8B8D /* ORAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ORAppDelegate.m; sourceTree = "<group>"; };
+		573BA3E918481B6400AF8B8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		573BA3EB18481B6400AF8B8D /* ORViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ORViewController.h; sourceTree = "<group>"; };
+		573BA3EC18481B6400AF8B8D /* ORViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ORViewController.m; sourceTree = "<group>"; };
+		573BA3EE18481B6400AF8B8D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		573BA3F418481B6400AF8B8D /* OriannaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OriannaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		573BA3F518481B6400AF8B8D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		573BA3FD18481B6400AF8B8D /* OriannaTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OriannaTests-Info.plist"; sourceTree = "<group>"; };
+		573BA3FF18481B6400AF8B8D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		573BA40118481B6400AF8B8D /* OriannaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OriannaTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		573BA3D018481B6400AF8B8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				573BA3D918481B6400AF8B8D /* CoreGraphics.framework in Frameworks */,
+				573BA3DB18481B6400AF8B8D /* UIKit.framework in Frameworks */,
+				573BA3D718481B6400AF8B8D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		573BA3F118481B6400AF8B8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				573BA3F618481B6400AF8B8D /* XCTest.framework in Frameworks */,
+				573BA3F818481B6400AF8B8D /* UIKit.framework in Frameworks */,
+				573BA3F718481B6400AF8B8D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		573BA3CA18481B6400AF8B8D = {
+			isa = PBXGroup;
+			children = (
+				573BA3DC18481B6400AF8B8D /* Orianna */,
+				573BA3FB18481B6400AF8B8D /* OriannaTests */,
+				573BA3D518481B6400AF8B8D /* Frameworks */,
+				573BA3D418481B6400AF8B8D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		573BA3D418481B6400AF8B8D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				573BA3D318481B6400AF8B8D /* Orianna.app */,
+				573BA3F418481B6400AF8B8D /* OriannaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		573BA3D518481B6400AF8B8D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				573BA3D618481B6400AF8B8D /* Foundation.framework */,
+				573BA3D818481B6400AF8B8D /* CoreGraphics.framework */,
+				573BA3DA18481B6400AF8B8D /* UIKit.framework */,
+				573BA3F518481B6400AF8B8D /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		573BA3DC18481B6400AF8B8D /* Orianna */ = {
+			isa = PBXGroup;
+			children = (
+				573BA3E518481B6400AF8B8D /* ORAppDelegate.h */,
+				573BA3E618481B6400AF8B8D /* ORAppDelegate.m */,
+				573BA3E818481B6400AF8B8D /* Main.storyboard */,
+				573BA3EB18481B6400AF8B8D /* ORViewController.h */,
+				573BA3EC18481B6400AF8B8D /* ORViewController.m */,
+				573BA3EE18481B6400AF8B8D /* Images.xcassets */,
+				573BA3DD18481B6400AF8B8D /* Supporting Files */,
+			);
+			path = Orianna;
+			sourceTree = "<group>";
+		};
+		573BA3DD18481B6400AF8B8D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				573BA3DE18481B6400AF8B8D /* Orianna-Info.plist */,
+				573BA3DF18481B6400AF8B8D /* InfoPlist.strings */,
+				573BA3E218481B6400AF8B8D /* main.m */,
+				573BA3E418481B6400AF8B8D /* Orianna-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		573BA3FB18481B6400AF8B8D /* OriannaTests */ = {
+			isa = PBXGroup;
+			children = (
+				573BA40118481B6400AF8B8D /* OriannaTests.m */,
+				573BA3FC18481B6400AF8B8D /* Supporting Files */,
+			);
+			path = OriannaTests;
+			sourceTree = "<group>";
+		};
+		573BA3FC18481B6400AF8B8D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				573BA3FD18481B6400AF8B8D /* OriannaTests-Info.plist */,
+				573BA3FE18481B6400AF8B8D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		573BA3D218481B6400AF8B8D /* Orianna */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 573BA40518481B6400AF8B8D /* Build configuration list for PBXNativeTarget "Orianna" */;
+			buildPhases = (
+				573BA3CF18481B6400AF8B8D /* Sources */,
+				573BA3D018481B6400AF8B8D /* Frameworks */,
+				573BA3D118481B6400AF8B8D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Orianna;
+			productName = Orianna;
+			productReference = 573BA3D318481B6400AF8B8D /* Orianna.app */;
+			productType = "com.apple.product-type.application";
+		};
+		573BA3F318481B6400AF8B8D /* OriannaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 573BA40818481B6400AF8B8D /* Build configuration list for PBXNativeTarget "OriannaTests" */;
+			buildPhases = (
+				573BA3F018481B6400AF8B8D /* Sources */,
+				573BA3F118481B6400AF8B8D /* Frameworks */,
+				573BA3F218481B6400AF8B8D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				573BA3FA18481B6400AF8B8D /* PBXTargetDependency */,
+			);
+			name = OriannaTests;
+			productName = OriannaTests;
+			productReference = 573BA3F418481B6400AF8B8D /* OriannaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		573BA3CB18481B6400AF8B8D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = OR;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "George Tang";
+				TargetAttributes = {
+					573BA3F318481B6400AF8B8D = {
+						TestTargetID = 573BA3D218481B6400AF8B8D;
+					};
+				};
+			};
+			buildConfigurationList = 573BA3CE18481B6400AF8B8D /* Build configuration list for PBXProject "Orianna" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 573BA3CA18481B6400AF8B8D;
+			productRefGroup = 573BA3D418481B6400AF8B8D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				573BA3D218481B6400AF8B8D /* Orianna */,
+				573BA3F318481B6400AF8B8D /* OriannaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		573BA3D118481B6400AF8B8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				573BA3EF18481B6400AF8B8D /* Images.xcassets in Resources */,
+				573BA3E118481B6400AF8B8D /* InfoPlist.strings in Resources */,
+				573BA3EA18481B6400AF8B8D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		573BA3F218481B6400AF8B8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				573BA40018481B6400AF8B8D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		573BA3CF18481B6400AF8B8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				573BA3E318481B6400AF8B8D /* main.m in Sources */,
+				573BA3E718481B6400AF8B8D /* ORAppDelegate.m in Sources */,
+				573BA3ED18481B6400AF8B8D /* ORViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		573BA3F018481B6400AF8B8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				573BA40218481B6400AF8B8D /* OriannaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		573BA3FA18481B6400AF8B8D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 573BA3D218481B6400AF8B8D /* Orianna */;
+			targetProxy = 573BA3F918481B6400AF8B8D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		573BA3DF18481B6400AF8B8D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				573BA3E018481B6400AF8B8D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		573BA3E818481B6400AF8B8D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				573BA3E918481B6400AF8B8D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		573BA3FE18481B6400AF8B8D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				573BA3FF18481B6400AF8B8D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		573BA40318481B6400AF8B8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		573BA40418481B6400AF8B8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		573BA40618481B6400AF8B8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Orianna/Orianna-Prefix.pch";
+				INFOPLIST_FILE = "Orianna/Orianna-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		573BA40718481B6400AF8B8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Orianna/Orianna-Prefix.pch";
+				INFOPLIST_FILE = "Orianna/Orianna-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		573BA40918481B6400AF8B8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Orianna.app/Orianna";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Orianna/Orianna-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "OriannaTests/OriannaTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		573BA40A18481B6400AF8B8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Orianna.app/Orianna";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Orianna/Orianna-Prefix.pch";
+				INFOPLIST_FILE = "OriannaTests/OriannaTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		573BA3CE18481B6400AF8B8D /* Build configuration list for PBXProject "Orianna" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				573BA40318481B6400AF8B8D /* Debug */,
+				573BA40418481B6400AF8B8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		573BA40518481B6400AF8B8D /* Build configuration list for PBXNativeTarget "Orianna" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				573BA40618481B6400AF8B8D /* Debug */,
+				573BA40718481B6400AF8B8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		573BA40818481B6400AF8B8D /* Build configuration list for PBXNativeTarget "OriannaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				573BA40918481B6400AF8B8D /* Debug */,
+				573BA40A18481B6400AF8B8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 573BA3CB18481B6400AF8B8D /* Project object */;
+}
