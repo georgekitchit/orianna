@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface ORAppDelegate : UIResponder <UIApplicationDelegate>
+- (void)openSession;
 
 @property (strong, nonatomic) UIWindow *window;
 

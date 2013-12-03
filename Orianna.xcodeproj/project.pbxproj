@@ -13,7 +13,6 @@
 		573BA3E118481B6400AF8B8D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 573BA3DF18481B6400AF8B8D /* InfoPlist.strings */; };
 		573BA3E318481B6400AF8B8D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 573BA3E218481B6400AF8B8D /* main.m */; };
 		573BA3E718481B6400AF8B8D /* ORAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 573BA3E618481B6400AF8B8D /* ORAppDelegate.m */; };
-		573BA3EA18481B6400AF8B8D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 573BA3E818481B6400AF8B8D /* Main.storyboard */; };
 		573BA3ED18481B6400AF8B8D /* ORViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 573BA3EC18481B6400AF8B8D /* ORViewController.m */; };
 		573BA3EF18481B6400AF8B8D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 573BA3EE18481B6400AF8B8D /* Images.xcassets */; };
 		573BA3F618481B6400AF8B8D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 573BA3F518481B6400AF8B8D /* XCTest.framework */; };
@@ -21,6 +20,15 @@
 		573BA3F818481B6400AF8B8D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 573BA3DA18481B6400AF8B8D /* UIKit.framework */; };
 		573BA40018481B6400AF8B8D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 573BA3FE18481B6400AF8B8D /* InfoPlist.strings */; };
 		573BA40218481B6400AF8B8D /* OriannaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 573BA40118481B6400AF8B8D /* OriannaTests.m */; };
+		573BA40C18481C9800AF8B8D /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 573BA40B18481C9800AF8B8D /* FacebookSDK.framework */; };
+		573BA41318481DD500AF8B8D /* action-eating.png in Resources */ = {isa = PBXBuildFile; fileRef = 573BA40E18481DD500AF8B8D /* action-eating.png */; };
+		573BA41418481DD500AF8B8D /* action-location.png in Resources */ = {isa = PBXBuildFile; fileRef = 573BA40F18481DD500AF8B8D /* action-location.png */; };
+		573BA41518481DD500AF8B8D /* action-people.png in Resources */ = {isa = PBXBuildFile; fileRef = 573BA41018481DD500AF8B8D /* action-people.png */; };
+		573BA41618481DD500AF8B8D /* action-photo.png in Resources */ = {isa = PBXBuildFile; fileRef = 573BA41118481DD500AF8B8D /* action-photo.png */; };
+		573BA41718481DD500AF8B8D /* facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = 573BA41218481DD500AF8B8D /* facebook.png */; };
+		573BA41E18481FA100AF8B8D /* ORFBLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 573BA41C18481FA100AF8B8D /* ORFBLoginViewController.m */; };
+		573BA41F18481FA100AF8B8D /* ORFBLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 573BA41D18481FA100AF8B8D /* ORFBLoginViewController.xib */; };
+		573BA424184AD61100AF8B8D /* ORViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 573BA423184AD61100AF8B8D /* ORViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,7 +52,6 @@
 		573BA3E418481B6400AF8B8D /* Orianna-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Orianna-Prefix.pch"; sourceTree = "<group>"; };
 		573BA3E518481B6400AF8B8D /* ORAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ORAppDelegate.h; sourceTree = "<group>"; };
 		573BA3E618481B6400AF8B8D /* ORAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ORAppDelegate.m; sourceTree = "<group>"; };
-		573BA3E918481B6400AF8B8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		573BA3EB18481B6400AF8B8D /* ORViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ORViewController.h; sourceTree = "<group>"; };
 		573BA3EC18481B6400AF8B8D /* ORViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ORViewController.m; sourceTree = "<group>"; };
 		573BA3EE18481B6400AF8B8D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -53,6 +60,16 @@
 		573BA3FD18481B6400AF8B8D /* OriannaTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OriannaTests-Info.plist"; sourceTree = "<group>"; };
 		573BA3FF18481B6400AF8B8D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		573BA40118481B6400AF8B8D /* OriannaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OriannaTests.m; sourceTree = "<group>"; };
+		573BA40B18481C9800AF8B8D /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = ../Documents/FacebookSDK/FacebookSDK.framework; sourceTree = "<group>"; };
+		573BA40E18481DD500AF8B8D /* action-eating.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "action-eating.png"; sourceTree = "<group>"; };
+		573BA40F18481DD500AF8B8D /* action-location.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "action-location.png"; sourceTree = "<group>"; };
+		573BA41018481DD500AF8B8D /* action-people.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "action-people.png"; sourceTree = "<group>"; };
+		573BA41118481DD500AF8B8D /* action-photo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "action-photo.png"; sourceTree = "<group>"; };
+		573BA41218481DD500AF8B8D /* facebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = facebook.png; sourceTree = "<group>"; };
+		573BA41B18481FA100AF8B8D /* ORFBLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORFBLoginViewController.h; sourceTree = "<group>"; };
+		573BA41C18481FA100AF8B8D /* ORFBLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORFBLoginViewController.m; sourceTree = "<group>"; };
+		573BA41D18481FA100AF8B8D /* ORFBLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ORFBLoginViewController.xib; sourceTree = "<group>"; };
+		573BA423184AD61100AF8B8D /* ORViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ORViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +78,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				573BA3D918481B6400AF8B8D /* CoreGraphics.framework in Frameworks */,
+				573BA40C18481C9800AF8B8D /* FacebookSDK.framework in Frameworks */,
 				573BA3DB18481B6400AF8B8D /* UIKit.framework in Frameworks */,
 				573BA3D718481B6400AF8B8D /* Foundation.framework in Frameworks */,
 			);
@@ -101,6 +119,7 @@
 		573BA3D518481B6400AF8B8D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				573BA40B18481C9800AF8B8D /* FacebookSDK.framework */,
 				573BA3D618481B6400AF8B8D /* Foundation.framework */,
 				573BA3D818481B6400AF8B8D /* CoreGraphics.framework */,
 				573BA3DA18481B6400AF8B8D /* UIKit.framework */,
@@ -114,10 +133,14 @@
 			children = (
 				573BA3E518481B6400AF8B8D /* ORAppDelegate.h */,
 				573BA3E618481B6400AF8B8D /* ORAppDelegate.m */,
-				573BA3E818481B6400AF8B8D /* Main.storyboard */,
+				573BA41B18481FA100AF8B8D /* ORFBLoginViewController.h */,
+				573BA41C18481FA100AF8B8D /* ORFBLoginViewController.m */,
+				573BA41D18481FA100AF8B8D /* ORFBLoginViewController.xib */,
 				573BA3EB18481B6400AF8B8D /* ORViewController.h */,
 				573BA3EC18481B6400AF8B8D /* ORViewController.m */,
+				573BA423184AD61100AF8B8D /* ORViewController.xib */,
 				573BA3EE18481B6400AF8B8D /* Images.xcassets */,
+				573BA40D18481DD500AF8B8D /* images */,
 				573BA3DD18481B6400AF8B8D /* Supporting Files */,
 			);
 			path = Orianna;
@@ -150,6 +173,18 @@
 				573BA3FE18481B6400AF8B8D /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		573BA40D18481DD500AF8B8D /* images */ = {
+			isa = PBXGroup;
+			children = (
+				573BA40E18481DD500AF8B8D /* action-eating.png */,
+				573BA40F18481DD500AF8B8D /* action-location.png */,
+				573BA41018481DD500AF8B8D /* action-people.png */,
+				573BA41118481DD500AF8B8D /* action-photo.png */,
+				573BA41218481DD500AF8B8D /* facebook.png */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,9 +264,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				573BA41618481DD500AF8B8D /* action-photo.png in Resources */,
+				573BA41718481DD500AF8B8D /* facebook.png in Resources */,
 				573BA3EF18481B6400AF8B8D /* Images.xcassets in Resources */,
 				573BA3E118481B6400AF8B8D /* InfoPlist.strings in Resources */,
-				573BA3EA18481B6400AF8B8D /* Main.storyboard in Resources */,
+				573BA41518481DD500AF8B8D /* action-people.png in Resources */,
+				573BA424184AD61100AF8B8D /* ORViewController.xib in Resources */,
+				573BA41418481DD500AF8B8D /* action-location.png in Resources */,
+				573BA41F18481FA100AF8B8D /* ORFBLoginViewController.xib in Resources */,
+				573BA41318481DD500AF8B8D /* action-eating.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +292,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				573BA3E318481B6400AF8B8D /* main.m in Sources */,
+				573BA41E18481FA100AF8B8D /* ORFBLoginViewController.m in Sources */,
 				573BA3E718481B6400AF8B8D /* ORAppDelegate.m in Sources */,
 				573BA3ED18481B6400AF8B8D /* ORViewController.m in Sources */,
 			);
@@ -281,14 +323,6 @@
 				573BA3E018481B6400AF8B8D /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		573BA3E818481B6400AF8B8D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				573BA3E918481B6400AF8B8D /* Base */,
-			);
-			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 		573BA3FE18481B6400AF8B8D /* InfoPlist.strings */ = {
@@ -379,6 +413,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/georgetang/Documents/FacebookSDK,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Orianna/Orianna-Prefix.pch";
 				INFOPLIST_FILE = "Orianna/Orianna-Info.plist";
@@ -392,6 +430,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/georgetang/Documents/FacebookSDK,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Orianna/Orianna-Prefix.pch";
 				INFOPLIST_FILE = "Orianna/Orianna-Info.plist";
@@ -461,6 +503,7 @@
 				573BA40718481B6400AF8B8D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		573BA40818481B6400AF8B8D /* Build configuration list for PBXNativeTarget "OriannaTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +512,7 @@
 				573BA40A18481B6400AF8B8D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
